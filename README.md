@@ -1,8 +1,7 @@
-# React + Vite
+# rUrban
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that controlls an irrigation system built using an Arduino Kit, it uses React.js as the frontend framework and PHP for the backend infrastructure
 
-Currently, two official plugins are available:
+The project is currently live on 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [rUrban Web](https://malikmustapha.com/rurban) 
