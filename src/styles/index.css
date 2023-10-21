@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Kanit', sans-serif;
+    transition: .3s;
+}
+
+.hide-container {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    width: 100vw;
+}
+
+.hide-container.active {
+    width: calc(100vw + 230px)
+}
+
+@media only screen and (max-width: 450px) {
+    html body .w-full-important {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hide-container {
+        width: calc(100vw + 230px);
+        right: 0;
+    }
+
+    .hide-container.active {
+        right: -230px;
+    }
+}
